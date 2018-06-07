@@ -1,5 +1,5 @@
 {
-    "name": "zendframework/zend-view",
+    "name": "webino/zend-view",
     "description": "provides a system of helpers, output filters, and variable escaping",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -11,6 +11,9 @@
         "psr-4": {
             "Zend\\View\\": "src/"
         }
+    },
+    "replace": {
+        "zendframework/zend-view": "self.version"
     },
     "require": {
         "php": "^5.6 || ^7.0",
